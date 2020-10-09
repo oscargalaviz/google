@@ -1,4 +1,190 @@
-fas
+html
 {
+    overflow-x: hidden;
+}
 
+#barra
+{
+    margin-top:4px;
+}
+
+#linkHome
+{
+    margin-top:1px;
+    font-size: 13px;
+    color: rgb(70,70,70);
+}
+
+#linkHome:hover
+{
+    text-decoration: underline;
+}
+
+#linkApp
+{
+    color: rgb(100,100,100);
+    font-size: 23px;
+    margin-top: -6px;
+    margin-right: 8px;
+}
+
+#linkApp:hover
+{
+    color: rgb(20,20,20);
+}
+
+#linkLogin
+{
+    font-weight: 600;
+    border-radius: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left:12px;
+    padding-right:12px;
+    font-size:14px;
+    margin-top: 4px;
+}
+
+#contenedorGoogle
+{
+    margin-top:14%;
+    border-style: none;
+}
+
+#logoGoogle
+{
+    margin-top:-3px;
+    margin-bottom: 8px;
+    width: 40.8%;
+}
+
+#barraBusqueda
+{
+    border-right-style: none;
+    background-color: white;
+    border-radius: 40px 0px 0px 40px;
+}
+
+#colorBusqueda
+{
+    font-size: 18px;
+    color: rgb(170,170,170);
+}
+
+#barraGoogle
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-left-style: none;
+    border-radius: 0px 40px 40px 0px;  
+}
+
+#buscar
+{
+    white-space: nowrap;
+    font-size:15px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+    color: rgb(100,100,100);
+    background-color: rgb(240,240,240);
+    margin-top: 3%;
+    transition-duration: 0s;
+}
+
+#buscar:hover
+{
+    transition-duration: 0s;
+    color: rgb(20,20,20);
+    border-color:rgb(180,180,180);
+}
+
+#suerte
+{    
+    white-space: nowrap;
+    font-size:15px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+    color: rgb(100,100,100);
+    background-color: rgb(240,240,240);
+    margin-left:1%;
+    margin-top: 3%;
+    transition-duration: 0s;
+}
+
+#suerte:hover
+{
+    transition-duration: 0s;
+    color: rgb(20,20,20);
+    border-color:rgb(180,180,180);
+}
+
+#footer
+{
+    border-radius: 0px;
+    font-size:15px;
+    color:rgb(80,80,80);
+    background-color:rgb(240,240,240);
+    padding-top:8.5px;
+    padding-bottom:8.5px;
+    padding-left: 24px;
+}
+
+#footer2
+{
+    border-radius: 0px;
+    font-size:15px;
+    color:rgb(80,80,80);
+    background-color:rgb(240,240,240);
+    padding-top:8.5px;
+    padding-bottom:8.5px;
+    margin-left: -10px;
+}
+
+.card
+{
+    border-radius: 0px;
+}
+
+.card-body
+{
+    border-radius: 0px;
+}
+
+
+#cardFooter
+{
+    border-radius: 0px;
+    border-top-style: none;
+}
+
+.linkFooter
+{
+    font-size:15px;
+    margin-right: 20px;
+    color:rgb(80,80,80);
+    text-decoration: none;
+}
+
+.linkFooterFinal
+{
+    font-size:15px;
+    color:rgb(80,80,80);
+    text-decoration: none;
+}
+
+.linkFooter:hover
+{
+    color:rgb(80,80,80);
+    text-decoration: underline;
+}
+
+.linkFooterFinal:hover
+{
+    color:rgb(80,80,80);
+    text-decoration: underline;
 }

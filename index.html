@@ -1,23 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="..css/css">
-        <title>Google</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/css.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="shortcut icon" href="https://img.icons8.com/color/452/google-logo.png" type="image/x-icon">
+        <title>
+            Google
+        </title>
     </head>
-    <body>
-        <div center>
-            <FORM method=GET action="http://www.google.com/search">
-            <TABLE bgcolor="#FFFFFF"><tr><td>
-            <A HREF="http://www.google.com/">
-            <IMG SRC="https://www.google.com.mx/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" border="0" ALT="Google" align="absmiddle"></A>
-            <INPUT TYPE=text name=q size=31 maxlength=255 value="" >
-            <i class="fas fa-microphone"></i>    
-            <INPUT TYPE=hidden name=hl value=es>
-            <INPUT type=submit name=btnG VALUE="Búsqueda Google">
-            </td></tr></TABLE>
-            </FORM>
-            <div id="SIvCob">Ofrecido por Google en:  <a href="https://www.google.com.mx/setprefs?sig=0_ElnRHoS8UHOnQ9gxANx_99n7dVE%3D&amp;hl=es-419&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjw5p7ny6TsAhVVoZ4KHU_xB44Q2ZgBCA8">Español (Latinoamérica)</a>  </div>
+    <body class="d-flex flex-column min-vh-100">
+        <div class="container-fluid">
+            <nav id="barra" class="navbar navbar-expand justify-content-end">
+                <ul class="navbar-nav nav nav-pills nav">
+                    <li class="nav-item">
+                        <a id="linkHome" class="nav-link" href="https://www.google.com/intl/es-419/gmail/about/">
+                            Gmail
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="linkHome" class="nav-link" href="https://www.google.com/imghp?hl=EN">
+                            Imagenes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="linkApp" class="nav-link" href="#">
+                            <i class='bx bxs-grid'></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="linkLogin" class="nav-link active" href="https://accounts.google.com/signin/v2/identifier?hl=es-419&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                            Iniciar sesión
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 justify-content-center">
+                    <div id="contenedorGoogle" class="card">
+                        <div class="text-center">
+                            <img id="logoGoogle" class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div id="barraBusqueda" class="input-group-text">
+                                            <i id="colorBusqueda" class='bx bx-search-alt-2'></i>
+                                        </div>
+                                    </div>
+                                    <input class="form-control form-control-lg" type="text" id="barraGoogle">
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" id="buscar" class="btn btn-primary">Buscar con Google</button>
+                                    <button type="submit" id="suerte" class="btn btn-primary">Me siento con Suerte</button>
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        <footer class="mt-auto">
+            <div class="card">
+                <div id="footer" class="card-body">
+                    México
+                </div>
+            </div>
+            <div id="cardFooter" class="card">
+                <div id="footer2" class="card-body">
+                    <div class="container-fluid">
+                        <div class="row no-gutters">
+                            <div class="col-md-12 col-lg-8 col-xl-9 text-center text-lg-left">
+                                <a class="linkFooter" href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000041-0000000000&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                                <a class="linkFooter" href="https://smallbusiness.withgoogle.com/intl/es-419_mx/help/#!/">Negocios</a>
+                                <a class="linkFooter" href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+                                <a class="linkFooter" href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona la Busqueda</a>
+                            </div>
+                            <div class="col-md-12 col-lg-4 col-xl-3 text-center text-lg-right">
+                                <a class="linkFooter" href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+                                <a class="linkFooter" href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+                                <a class="linkFooter" href="https://www.google.com/preferences?hl=es-419">Preferencias</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
